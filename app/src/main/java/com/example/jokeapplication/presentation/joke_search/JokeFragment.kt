@@ -72,7 +72,7 @@ class JokeFragment : Fragment() {
             lifecycle.repeatOnLifecycle(Lifecycle.State.STARTED) {
                 while (true) {
                     viewModel.jokeData()
-                    delay(5000)
+                    delay(60000)
                 }
             }
         }
